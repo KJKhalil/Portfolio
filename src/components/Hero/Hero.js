@@ -8,14 +8,14 @@ const Hero = () => (
     <LeftSection>
 
       <SectionTitle main center>
-        Welcome To My Portfolio
+        Khalil Khalil
       </SectionTitle>
 
       <SectionText>
-        BlankForNow
+        Full-Stack Developer & UI/UX Designer
       </SectionText>
 
-      <Button onClick={() => window.location.href = 'khalil.j.khalil2@gmail.com'}>Email Me</Button>
+      <Button onClick={() => window.location.href ='mailto:khalil.j.khalil2@gmail.com'}>Get In Touch</Button>
     </LeftSection>
   </Section>
 );
