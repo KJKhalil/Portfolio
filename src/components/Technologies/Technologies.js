@@ -4,9 +4,38 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <div>
-    Technologies
-  </div>
+  <Section id='tech'>
+    <SectionDivider/>
+    <br/>
+    <SectionTitle></SectionTitle>
+    <SectionText></SectionText>
+
+    <List>
+      <ListItem>
+        <DiReact size='3rem'/>
+        <ListContainer>
+          <ListTitle></ListTitle>
+          <ListParagraph></ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiFirebase size='3rem'/>
+        <ListContainer>
+          <ListTitle></ListTitle>
+          <ListParagraph></ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiZend size='3rem'/>
+        <ListContainer>
+          <ListTitle></ListTitle>
+          <ListParagraph></ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+  </Section>
 );
 
 export default Technologies;
