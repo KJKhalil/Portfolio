@@ -7,31 +7,31 @@ const Technologies = () =>  (
   <Section id='tech'>
     <SectionDivider/>
     <br/>
-    <SectionTitle></SectionTitle>
-    <SectionText></SectionText>
+    <SectionTitle>Technologies</SectionTitle>
+    <SectionText>I have diverse and versatile experience in Front-End, Back-End, and Design technologies.</SectionText>
 
     <List>
       <ListItem>
         <DiReact size='3rem'/>
         <ListContainer>
-          <ListTitle></ListTitle>
-          <ListParagraph></ListParagraph>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>Experience with React, Bootstrap, Tailwind, and Typescript.</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
         <DiFirebase size='3rem'/>
         <ListContainer>
-          <ListTitle></ListTitle>
-          <ListParagraph></ListParagraph>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>Experience with Express, Node, MySQL, and MongoDB.</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
         <DiZend size='3rem'/>
         <ListContainer>
-          <ListTitle></ListTitle>
-          <ListParagraph></ListParagraph>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>Experience with Figma.</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
