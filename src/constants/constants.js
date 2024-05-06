@@ -22,7 +22,7 @@ export const projects = [
     description: "A portfolio page that allows you to show your knowledge, projects, career timeline, and accomplishments all on one sleek streamlined page.",
       image: '/images/PortfolioSS.png',
       tags: ['Next', 'React', 'Styled-Components', 'Node'],
-    source: 'https://github.com/KJKhalil/Portfolio',
+    source: 'https://kjkhalilportfolio.netlify.app',
     visit: 'https://github.com/KJKhalil/Portfolio',
     id: 2,
   }, 
