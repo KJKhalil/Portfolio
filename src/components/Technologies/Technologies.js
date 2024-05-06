@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionDivider/>
     <br/>
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>I have diverse and versatile experience in Front-End, Back-End, and Design technologies.</SectionText>
+    <SectionText>I possess diverse and versatile experience in Front-End, Back-End, and Design technologies.</SectionText>
 
     <List>
       <ListItem>
