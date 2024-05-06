@@ -1,19 +1,31 @@
-/*This Page Is Not Used ATM*/
+//This Page Is Not Used ATM
 import React from 'react';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 
+//This const Is Where The Accomplishments Are Written To Map
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 1, text: ''},
+  { number: 2, text: '', },
+  { number: 3, text: '', },
+  { number: 4, text: '', }
 ];
 
 const Accomplishments = () => (
-  <div>
-    Accomplishments
-  </div>
+  <Section>
+    <SectionTitle>Accomplishments</SectionTitle>
+
+    <Boxes>
+      {data.map((card, index) => (
+        <Box key={index}>
+          <BoxNum>{card.number}+</BoxNum>
+          <BoxText>{card.text}</BoxText>
+        </Box>
+      ))}
+    </Boxes>
+
+    <SectionDivider/>
+  </Section>
 );
 
 export default Accomplishments;
